@@ -82,7 +82,7 @@ export const CalendarDay = styled("button", {
 
   "&:disabled": {
     background: "none",
-    cursor: "pointer",
+    cursor: "default",
     opacity: 0.4,
   },
 
