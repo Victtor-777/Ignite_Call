@@ -82,7 +82,6 @@ export default async function handler(
 
     return res.json({ availableTimes, possibleTimes });
   } catch (error) {
-    console.log(error);
     res.status(400).end();
   }
 }
